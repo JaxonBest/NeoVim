@@ -55,8 +55,9 @@ colorscheme dracula
 autocmd VimEnter * NERDTree
 
 " NERDTree Shortcuts.
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <leader>n :NERDTreeFocusToggle<CR>
+nnoremap <C-n> :NERDTreeClose<CR>
+
 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * NERDTreeFocusToggle
