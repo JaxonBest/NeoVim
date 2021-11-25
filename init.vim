@@ -39,6 +39,9 @@ Plug 'neoclide/coc-css'
 " GIT Intelli-sense.
 Plug 'neoclide/coc-git'
 
+" SHELL SCRIPT Itelli-sense.
+Plug 'josa42/coc-sh'
+
 call plug#end()
 
 " Set Values
