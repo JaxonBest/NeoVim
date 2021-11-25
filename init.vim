@@ -33,6 +33,9 @@ Plug 'prettier/vim-prettier', {
 " JSON Intelli-sense.
 Plug 'neoclide/coc-json'
 
+" CSS Intelli-sense.
+Plug 'neoclide/coc-css'
+
 call plug#end()
 
 " Set Values
