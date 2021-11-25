@@ -25,6 +25,12 @@ Plug 'tpope/vim-fugitive'
 " Rust Language Pack.
 Plug 'rust-lang/rust.vim'
 
+" Prettier for File Formatting
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'branch': 'release/0.x'
+  \ }
+
 call plug#end()
 
 
