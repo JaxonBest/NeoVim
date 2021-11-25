@@ -48,7 +48,6 @@ set softtabstop=4
 
 
 " Set the basic colorscheme. 
-packadd! dracula
 syntax enable
 colorscheme dracula
 
@@ -58,6 +57,9 @@ autocmd VimEnter * NERDTree
 nnoremap <leader>n :NERDTreeFocusToggle<CR>
 nnoremap <C-n> :NERDTreeClose<CR>
 
+" Compile/Run Code with <leader> + c
+autocmd filetype rust nnoremap <leader>c :Cargo run<CR>
+autocmd filetype python nnoremap <leader>c :!python3 "%"<CR>
 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * NERDTreeFocusToggle
