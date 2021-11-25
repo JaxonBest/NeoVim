@@ -36,6 +36,9 @@ Plug 'neoclide/coc-json'
 " CSS Intelli-sense.
 Plug 'neoclide/coc-css'
 
+" GIT Intelli-sense.
+Plug 'neoclide/coc-git'
+
 call plug#end()
 
 " Set Values
