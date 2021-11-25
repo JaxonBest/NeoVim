@@ -33,6 +33,11 @@ Plug 'prettier/vim-prettier', {
 
 call plug#end()
 
+" Set Values
+set number
+set tabstop=4
+set softtabstop=4
+
 
 " Set the basic colorscheme. 
 packadd! dracula
