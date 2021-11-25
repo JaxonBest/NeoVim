@@ -45,10 +45,8 @@ autocmd VimEnter * NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 
-" Start NERDTree, unless a file or session is specified, eg. vim -S
-" session_file.vim.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTreeFocusToggle | endif
+autocmd VimEnter * NERDTree
+autocmd VimEnter * NERDTreeFocusToggle
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
