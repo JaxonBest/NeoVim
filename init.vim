@@ -63,6 +63,8 @@ nnoremap <C-n> :NERDTreeClose<CR>
 " Compile/Run Code with <leader> + c
 autocmd filetype rust nnoremap <leader>c :Cargo run<CR>
 autocmd filetype python nnoremap <leader>c :!python3 "%"<CR>
+autocmd filetype javascript nnoremap <leader>c :!node "%"<CR>
+autocmd filetype typescript nnoremap <leader>c: :!tsc<CR>
 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * NERDTreeFocusToggle
