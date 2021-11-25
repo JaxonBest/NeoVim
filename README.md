@@ -6,3 +6,8 @@ I have tried my best to keep it quite lightweight so I don't have too many distr
 
 Any questions please contact me on *Discord*: `Jaxon#0001`
 Or Email me at `jaxonbest@outlook.com`
+
+<hr/>
+
+## Take a look at the *init.vim* file for a preview.
+
