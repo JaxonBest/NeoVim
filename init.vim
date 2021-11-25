@@ -1,7 +1,6 @@
 " Leader Key
 let mapleader = " "
 
-
 call plug#begin('$HOME/AppData/Local/nvim/autoload/plugged')
 
 " File navigation panel.
@@ -30,6 +29,9 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'branch': 'release/0.x'
   \ }
+
+" JSON Intelli-sense.
+Plug 'neoclide/coc-json'
 
 call plug#end()
 
