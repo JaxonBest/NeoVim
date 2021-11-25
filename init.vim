@@ -19,7 +19,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 " Makes Commenting a lot easier.
 Plug 'scrooloose/nerdcommenter'
 
-" Working with Git
+" Working with Git.
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
