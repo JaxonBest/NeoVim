@@ -39,7 +39,6 @@ packadd! dracula
 syntax enable
 colorscheme dracula
 
-" Start NERDTree and leave the cursor in it.
 autocmd VimEnter * NERDTree
 
 " NERDTree Shortcuts.
@@ -49,7 +48,7 @@ nnoremap <C-n> :NERDTree<CR>
 " Start NERDTree, unless a file or session is specified, eg. vim -S
 " session_file.vim.
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTree | endif
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTreeFocusToggle | endif
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
