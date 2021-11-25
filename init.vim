@@ -22,6 +22,8 @@ Plug 'scrooloose/nerdcommenter'
 " Working with Git.
 Plug 'tpope/vim-fugitive'
 
+" Rust Language Pack.
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 
