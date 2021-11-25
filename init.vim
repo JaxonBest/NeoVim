@@ -1,6 +1,7 @@
 " Leader Key
 let mapleader = " "
 
+
 call plug#begin('$HOME/AppData/Local/nvim/autoload/plugged')
 
 " File navigation panel.
@@ -11,6 +12,12 @@ Plug 'https://github.com/dracula/vim.git'
 
 " For automatically opening and closing tags.
 Plug 'https://github.com/townk/vim-autoclose'
+
+" NERDTree Tab Support.
+Plug 'jistr/vim-nerdtree-tabs'
+
+" Makes Commenting a lot easier.
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
