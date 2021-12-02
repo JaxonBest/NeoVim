@@ -48,6 +48,9 @@ Plug 'mhinz/vim-startify'
 " Align text with words.
 Plug 'junegunn/vim-easy-align'
 
+" Lua Syntax 
+Plug 'tbastos/vim-lua'
+
 call plug#end()
 
 " Set Values
