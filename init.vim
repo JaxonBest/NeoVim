@@ -42,7 +42,11 @@ Plug 'neoclide/coc-git'
 " SHELL SCRIPT Itelli-sense.
 Plug 'josa42/coc-sh'
 
+" Startup User Interaface.
 Plug 'mhinz/vim-startify'
+
+" Align text with words.
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
@@ -77,3 +81,9 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 
 
 let g:startify_custom_header = 'startify#pad(startify#fortune#cowsay())'
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)"
