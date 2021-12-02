@@ -42,6 +42,8 @@ Plug 'neoclide/coc-git'
 " SHELL SCRIPT Itelli-sense.
 Plug 'josa42/coc-sh'
 
+Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 " Set Values
@@ -72,3 +74,6 @@ autocmd VimEnter * NERDTreeFocusToggle
 
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
+
+
+let g:startify_custom_header = 'startify#pad(startify#fortune#cowsay())'
